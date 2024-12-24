@@ -12,6 +12,7 @@ import CarComponent from "../components/CarComponent";
 import InLineStyel from "../components/InLineStyel";
 import InternalStyle from "../components/InternalStyle";
 import ExternalStyle from "../components/ExternalStyle";
+import ListData from "../components/ListData";
 
 const index = () => {
   return (
@@ -34,7 +35,8 @@ const index = () => {
       /> */}
       {/* <InLineStyel /> */}
       {/* <InternalStyle /> */}
-      <ExternalStyle />
+      {/* <ExternalStyle /> */}
+      <ListData />
     </View>
   );
 };
