@@ -9,6 +9,9 @@ import ImageComp from "@/src/components/ImageComp";
 import ProfileCard from "@/src/components/ProfileCard";
 import DynamicContent from "../components/DynamicContent";
 import CarComponent from "../components/CarComponent";
+import InLineStyel from "../components/InLineStyel";
+import InternalStyle from "../components/InternalStyle";
+import ExternalStyle from "../components/ExternalStyle";
 
 const index = () => {
   return (
@@ -20,7 +23,7 @@ const index = () => {
       <ImageComp /> */}
       {/* <ProfileCard /> */}
       {/* <DynamicContent /> */}
-      <CarComponent
+      {/* <CarComponent
         name="bugatti"
         price={100000}
         rating={5}
@@ -28,7 +31,10 @@ const index = () => {
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGShGkQb3Dcbv4GExkA2gOgZzdOdaGekJeNQ&s"
         }
         desc="Fastest car in the world"
-      />
+      /> */}
+      {/* <InLineStyel /> */}
+      {/* <InternalStyle /> */}
+      <ExternalStyle />
     </View>
   );
 };
